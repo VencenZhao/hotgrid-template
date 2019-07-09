@@ -1,0 +1,89 @@
+@import './valuable';
+
+body,html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+
+    #root {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+iframe {
+    border: 0;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0;
+}
+
+button {
+    outline: none;
+    border: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline-flex-center {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.no-copy {
+    user-select: none;
+}
+.flex1 {
+    flex: 1
+}
+.flex2 {
+    flex: 2
+}
+.text-right {
+    text-align: right;
+}
+.bold {
+    font-weight: bold;
+}
+.margin10 {
+    margin-top: 10*$fontsizeUnit;
+    margin-bottom: 10*$fontsizeUnit;
+}
+.text-center {
+    text-align: center;
+}
